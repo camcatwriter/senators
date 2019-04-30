@@ -78,6 +78,7 @@ const democrats = representatives.filter(senator => {
   return senator.party === 'D'
 })
 
+
 const republicans = representatives.filter(senator => senator.party === 'R')
 
 console.log(democrats, republicans)
@@ -111,7 +112,7 @@ const allMissedVotes = representatives.reduce((acc, rep) => {
 console.log(testResults, allVotes, allMissedVotes)
 
 const senWithPics = senators.map(senator => {
-  senator.imgURL = `https://www.congress.gov/img/member/${senator.id.toLowerCase()}.jpg`
+  senator.imgURL = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRLpQpEsvx9RdU1jI_qcszhYDzPusIskujkEONM2bf9s-JYRI-`
   return senator
 })
 
