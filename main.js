@@ -1,5 +1,5 @@
 import { senators } from './senators.js'
-import { respresentatives } from './representatives.js'
+import { representatives } from './representatives.js'
 
 //filter examples
 const maleSenators = representatives.filter((senator) => {
