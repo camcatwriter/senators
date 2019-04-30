@@ -1,4 +1,4 @@
-import { senators } from './senators.js/index.js'
+import { senators } from './senators.js'
 import { respresentatives } from './representatives.js'
 
 //filter examples
